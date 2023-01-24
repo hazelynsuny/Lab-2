@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+int main() {
+  cout << "******************" << endl;
+  cout << "Hazelyn Gonzalez" << endl;
+  cout << "LM Chapter 1 Lab" << endl;
+  cout << "January 20, 2023" << endl;
+  cout << "******************" << endl;
+
+  cout << "*****Lab 1.1*****" << endl;
+  cout << "Now is the time for all good men" << endl;
+  cout << "To come to the aid of their party" << endl;
+
+  cout << "*****Lab 1.2*****" << endl;
+  int number;
+  float total;
+  cout << "Today is a great day for Lab";
+  cout << endl << "Let's start off by typing a number of your choice" << endl;
+  cin >> number;
+
+  total = number * 2;
+  cout << total << " is twice the number you typed" << endl;
+  cout << "*****Lab 1.3*****" << endl;
+  int number1;
+  float total1;
+  cout << "Hi there";
+  cout << endl << "Please input a number and then hit return" << endl;
+  cin >> number;
+
+  number = number / 2;
+  cout << " Half your number is " << number << endl;
+
+  cout << "*****Lab 1.4*****" << endl;
+  float firstNumber;
+  float secondNumber;
+  cout << "Enter the first number" << endl;
+  cout << "Then hit enter" << endl;
+  cin >> firstNumber;
+  cout << "Enter the second number" << endl;
+  cout << "Then hit enter" << endl;
+  cin >> secondNumber;
+  cout << endl
+       << "You input the numbers as " << firstNumber << " and " << secondNumber
+       << endl;
+  cout << "After swapping, the values of the two numbers are " << secondNumber
+       << " and " << firstNumber << endl;
+  
+  cout << "*****Lab 1.5*****" << endl;
+  int number2;
+  float total2;
+  cout << "Kilometers to Miles Conversion" << endl;
+  cout << "Input a number then press enter" << endl;
+  cin >> number;
+  cout << "You entered " << number << " kilometers" << endl;
+  cout << number << " kilometers is equal to " << number * 0.621 << " miles"
+       << endl;
+  return 0;
+}
